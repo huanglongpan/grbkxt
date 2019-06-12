@@ -1,0 +1,126 @@
+/*
+* @Author: Marte
+* @Date:   2017-10-07 19:45:59
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-10-09 20:13:19
+*/
+#post{
+    margin: auto;
+    padding: auto;
+    width: auto;
+    height: 650px;
+    border: 2px solid #ccc;
+    position: relative;
+}
+body{
+    font-family: 微软雅黑;
+}
+h2{
+    text-align: center;
+}
+form{
+    width: 600px;
+    height: 600px;
+    margin: auto;
+}
+.face{
+    cursor: pointer;
+    padding: 0 0 0 100px;
+}
+#post legend{
+    padding-left: 12px;
+}
+#post dl dt{
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+#post dl dd{
+    padding-top: 10px;
+}
+#post #ubb{
+    width: 400px;
+    height: 26px;
+    background: #E3E1E1;
+    border: 1px solid #666;
+}
+#post #ubb img{
+    cursor: pointer;
+    display: block;
+    float: left;
+    padding: 5px 0 0 5px;
+}
+#post dl dd label{
+    cursor: pointer;
+    display: inline-block;
+    height: 20px;
+    padding: 0 8px 0 0;
+}
+#post dl dd .text{
+    width: 220px;
+    height: 19px;
+}
+#post #tt a{
+    text-decoration: none;
+    color: #333;
+}
+#post dl dd textarea{
+    font-size: 16px;
+    width: 400px;
+    height: 270px;
+    overflow-x:hidden;
+    overflow-y:auto;
+    resize: none;
+}
+#post .submit{
+    margin: 0 0 0 50px;
+    width: 120px;
+    height: 50px;
+    cursor: pointer;
+    font-weight: 600;
+}
+#post #code{
+    cursor: pointer;
+}
+#post #close{
+    width: 50px;
+    height: 25px;
+    line-height: 25px;
+    position: absolute;
+    text-align: center;
+    font-weight: 600;
+    background: #333;
+    color:red;
+    // left: 30px;
+    // top: 20px;
+    cursor: pointer;
+}
+#post #toux{
+    border: 1px solid #000;
+     background-color:rgba(206,206,206,0.8);
+    display: none;
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    left: -100px;
+    top: 50px;
+    overflow-x:hidden;
+    overflow-y:auto;
+    resize: none;
+}
+#post #toux h5{
+    text-align: center;
+    padding:10px 0 10px 0;
+}
+#post #toux dd{
+    float: left;
+    padding: 0 5px 0 0;
+}
+#post #toux img{
+    // width: 100px;
+    // height: 100px;
+    cursor: pointer;
+}
+#post #toux img:hover{
+    background : #666  right bottom
+}

@@ -1,0 +1,20 @@
+/*
+* @Author: Marte
+* @Date:   2017-05-22 20:33:18
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-05-25 21:12:48
+*/
+body{
+    font-family: 微软雅黑;
+}
+#active{
+    margin: auto;
+    padding: auto;
+    width: auto;
+    height: 300px;
+    border: 2px solid #ccc;
+}
+#active p{
+    text-align:center;
+    padding: 15px;
+}

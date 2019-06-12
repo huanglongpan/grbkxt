@@ -1,0 +1,84 @@
+/*
+* @Author: Marte
+* @Date:   2017-10-15 18:40:29
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-10-15 20:42:11
+*/
+
+body{
+    font-family: 微软雅黑;
+}
+#member_main{
+    margin: auto;
+    padding: auto;
+    width: auto;
+    height: 600px;
+    border: 2px solid #ccc;
+}
+#member_main h2{
+    text-align: center;
+}
+#boyou{
+    overflow-y:auto;
+    resize: none;
+    width: auto;
+    height: 420px;
+}
+#boyou dl dt img{
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    display: block;
+}
+#boyou dl{
+    margin:5px 0 0 18px;
+    padding: 10px;
+    float: left;
+    width: 150px;
+}
+#boyou dl dd{
+    text-align:center;
+    height: 20px;
+    line-height: 20px;
+    float: left;
+    width: 75px;
+}
+#boyou dl dd a{
+    text-decoration: none;
+}
+#boyou dl dd a:hover{
+    text-decoration: underline;
+}
+#boyou dl dt{
+    width: 150px;
+    margin: 0 0 5px 0;
+}
+#boyou dl dd.user{
+    font-size: 18px;
+    height: 30px;
+    width: 150px;
+    color: #0921F7;
+    float: none;
+}
+#boyou dl dd.user img{
+    height: 18px;
+}
+#boyou dl dd.message{
+    background: url(../../images/ly.gif)no-repeat 3px 25%;
+}
+#boyou dl dd.friend{
+    background: url(../../images/sc.png)no-repeat -4px 25%;
+}
+#boyou dl dd.flower{
+    background: url(../../images/zan.png)no-repeat 5px 25%;
+}
+#boyou dl dd.guest{
+    background: url(../../images/xly.gif) no-repeat 3px 25%;
+}
+#member #member_main table{
+    width: 90%;
+    margin: 10px auto;
+    text-align: center;
+    background: #ccc;
+    border-color: #ccc;
+}

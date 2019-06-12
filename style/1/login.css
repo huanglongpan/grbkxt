@@ -1,0 +1,36 @@
+/*
+* @Author: Marte
+* @Date:   2017-05-23 20:55:35
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-06-15 21:40:36
+*/
+body{
+    font-family: 微软雅黑;
+}
+#login{
+    margin: auto;
+    padding: auto;
+    width: auto;
+    height: 300px;
+    border: 2px solid #ccc;
+}
+#login p{
+    text-align:center;
+    padding: 15px;
+}
+#login legend{
+    padding-left: 12px;
+}
+#login dl dt{
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+#login dl dd{
+    padding-top: 10px;
+}
+
+#login dl dd .text{
+    width: 220px;
+    height: 19px;
+}

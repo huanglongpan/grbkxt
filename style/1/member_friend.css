@@ -1,0 +1,26 @@
+/*
+* @Author: Marte
+* @Date:   2017-09-28 20:10:12
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-10-03 19:45:35
+*/
+#member #member_main table{
+    width: 90%;
+    margin: 10px auto;
+    text-align: center;
+    background: #ccc;
+    border-color: #ccc;
+}
+#member #member_main table th,td{
+    height: 25px;
+    line-height: 25px;
+    background: #fff;
+}
+#member #member_main table td a{
+    text-decoration: none;
+    color: #000;
+}
+#member #member_main table td a:hover{
+    text-decoration: underline;
+    color: #5F08F7;
+}

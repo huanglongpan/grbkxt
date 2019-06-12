@@ -1,0 +1,84 @@
+/*
+* @Author: Marte
+* @Date:   2017-06-11 15:24:08
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-06-11 20:27:59
+*/
+#member{
+    border: 2px solid #ccc;
+    width: auto;
+    height: 600px;
+}
+#member h2{
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+}
+#member #member_sidebar{
+    width: 300px;
+    height: 500px;
+    float: left;
+    margin: 10px;
+    border: 1px dashed #999;
+}
+#member #member_sidebar dl{
+    width: 250px;
+    margin: 15px auto;
+}
+#member #member_sidebar dl dt{
+    height: 40px;
+    line-height: 40px;
+    background: #999;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+}
+#member #member_sidebar dl dd{
+    height: 40px;
+    line-height: 40px;
+    background: #eee;
+    font-weight: bold;
+    text-align: center;
+}
+#member #member_sidebar dl dd a{
+    display: block;
+    text-decoration: none;
+    color: #333;
+}
+#member #member_sidebar dl dd a:hover{
+    background: #666;
+}
+#member #member_main{
+    width: 590px;
+    height: 500px;
+    margin: 10px;
+    border: 1px dashed #999;
+    float: right;
+}
+#member #member_main dl{
+    width: 500px;
+    margin: 15px auto;
+    font-size: 15px;
+}
+#member #member_main dl dd{
+    text-indent: 10px;
+    padding: 15px 0;
+    border-bottom: 1px dashed #999;
+}
+#member #member_main dl dd span{
+    color: #666;
+}
+#member #member_main dl dd .text{
+    width: 220px;
+    height: 20px;
+}
+#member #member_main dl dd .face{
+    width: 100px;
+    height: 100px;
+    padding: 0;
+}
+#member #member_main dl dd .submit{
+    width: 100px;
+    height: 30px;
+    padding: 0;
+}

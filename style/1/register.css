@@ -1,0 +1,43 @@
+#register{
+	margin: auto;
+	padding: auto;
+	width: auto;
+	height: 600px;
+	border: 2px solid #ccc;
+}
+/*#register{
+	width: 400px;
+	height: 500px;
+	margin: auto;
+}*/
+body{
+    font-family: 微软雅黑;
+}
+form{
+	width: 600px;
+	height: 600px;
+	margin: auto;
+}
+.face{
+	cursor: pointer;
+	padding: 0 0 0 100px;
+}
+#register legend{
+	padding-left: 12px;
+}
+#register dl dt{
+	padding: 10px;
+	font-weight: bold;
+	text-align: center;
+}
+#register dl dd{
+	padding-top: 10px;
+}
+#register dl dd .text{
+	width: 220px;
+	height: 19px;
+}
+#register dl dd .face{
+	width: 100px;
+	height: 100px;
+}

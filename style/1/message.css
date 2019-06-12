@@ -1,0 +1,43 @@
+/*
+* @Author: Marte
+* @Date:   2017-08-22 20:31:56
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-10-07 21:00:06
+*/
+body{
+    width: auto;
+    font-family: 微软雅黑;
+}
+#message h3{
+    background-color: #eee;
+    width: 90%;
+    margin: 10px auto;
+    height: 30px;
+    line-height: 30px;
+    border: 1px dashed #333;
+    text-align: center;
+}
+#message dl{
+    width: 90%;
+    margin: 0 auto;
+}
+#message dd{
+    margin: 5px;
+}
+#message .text{
+    width: 100%;
+    height: 150px;
+    background-color:#ddd;
+    overflow-x:hidden;
+    overflow-y:auto;
+    resize: none;
+    font-size: 16px;
+}
+#message dd .submit{
+    width: 100px;
+    height: 50px;
+    margin: 0 32%;
+}
+#message dl dd select{
+    width: 60px;
+}

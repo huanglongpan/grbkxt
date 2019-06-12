@@ -1,0 +1,122 @@
+body{
+    font-family: 微软雅黑;
+}
+#list{
+	width: 600px;
+	height: 514px;
+	border: 1px solid #ccc;
+	float: right;
+}
+#list form{
+	width: 300px;
+	height: 30px;
+	float: left;;
+	padding: 20px 0 0 10px;
+}
+#list form #ss{
+	height: 23px;
+	border-radius:5px;
+	width: 180px;
+	border: 1px solid #111;
+}
+#list .post{
+	display: block;
+	width: 114px;
+	height: 33px;
+	background: url(../../images/fb.png) no-repeat;
+	margin: 10px 10px 0 auto; ;
+}
+#list .article{
+	padding: 20px 50px;
+}
+#list .article li{
+	display: block;
+	height: 30px;
+	line-height: 30px;
+	border-bottom: 1px dashed #333;
+	padding:0 0 0 25px;
+}
+#list .article li a:link{
+	color: #0610FF;
+}
+#list .article li a:visited{
+	color: #3003F8;
+}
+#list .article li a:hover{
+	color: #f60;
+}
+#list .article li a:active{
+	color: #090808;
+}
+#list .icon1{
+	background: url(../../images/icon1.gif) no-repeat left center;
+}
+#list .icon2{
+	background: url(../../images/icon2.gif) no-repeat left center;
+}
+#list .icon3{
+	background: url(../../images/icon3.gif) no-repeat left center;
+}
+#list .icon4{
+	background: url(../../images/icon4.gif) no-repeat left center;
+}
+#list .icon5{
+	background: url(../../images/icon5.gif) no-repeat left center;
+}
+#list .icon6{
+	background: url(../../images/icon6.gif) no-repeat left center;
+}
+#list .icon7{
+	background: url(../../images/icon7.gif) no-repeat left center;
+}
+#list .icon8{
+	background: url(../../images/icon8.gif) no-repeat left center;
+}
+#list .icon9{
+	background: url(../../images/icon9.gif) no-repeat left center;
+}
+#list .icon10{
+	background: url(../../images/icon10.gif) no-repeat left center;
+}
+#list .icon11{
+	background: url(../../images/icon11.gif) no-repeat left center;
+}
+#list .icon12{
+	background: url(../../images/icon12.gif) no-repeat left center;
+}
+#list .icon13{
+	background: url(../../images/icon13.gif) no-repeat left center;
+}
+#list .icon14{
+	background: url(../../images/icon14.gif) no-repeat left center;
+}
+#list .icon15{
+	background: url(../../images/icon15.gif) no-repeat left center;
+}
+#list .icon16{
+	background: url(../../images/icon16.gif) no-repeat left center;
+}
+#list .article li em{
+	float: right;
+	font-style: normal;
+	padding: 0 3px 0 0;
+}
+#user{
+	width: 340px;
+	height: 250px;
+	border: 1px solid #ccc;
+	float: left;
+	margin: 0 0 10px 0;
+}
+#user dl dd{
+	float: left;
+    padding:0 0 0 35px;
+	background: url(../../images/tz.png) no-repeat 3px 25%;
+	font-size: 18px;
+}
+#pics{
+	width: 340px;
+	height: 250px;
+	border: 1px solid #ccc;
+	float: left;
+}

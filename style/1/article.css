@@ -1,0 +1,288 @@
+/*
+* @Author: Marte
+* @Date:   2017-10-10 18:08:15
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-10-15 20:38:12
+*/
+body{
+    font-family: 微软雅黑;
+}
+#article{
+    margin: auto;
+    padding: auto;
+    width: auto;
+    min-height: 600px;
+    border: 2px solid #ccc;
+}
+#article h2{
+    text-align: center;
+}
+#article h3{
+    font-size: 24px;
+    border-bottom: 1px solid #000;
+    padding: 0 0 0 50px;
+}
+#article h3 img{
+    position: relative;
+    top: 2px;
+}
+#article #subject{
+}
+#article #subject dl dt img{
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    display: block;
+}
+#article #subject dl{
+    margin:5px 0 0 10px;
+    padding: 10px;
+    float: left;
+    width: 180px;
+}
+#article #subject dl dd{
+    text-align:center;
+    height: 20px;
+    line-height: 20px;
+    float: left;
+    width: 75px;
+}
+#article #subject dl dd a{
+    text-decoration: none;
+}
+#article #subject dl dd a:hover{
+    text-decoration: underline;
+}
+#article #subject dl dt{
+    width: 150px;
+    margin: 0 0 5px 0;
+}
+#article #subject dl dd.user{
+    font-size: 18px;
+    height: 30px;
+    width: 150px;
+    color: #0921F7;
+    float: none;
+}
+#article #subject dl dd.user img{
+    height: 18px;
+}
+#article #subject dl dd.message{
+    background: url(../../images/ly.gif)no-repeat 3px 25%;
+}
+#article #subject dl dd.friend{
+    background: url(../../images/jhy.gif)no-repeat 5px 25%;
+}
+#article #subject dl dd.flower{
+    background: url(../../images/zan.png)no-repeat 5px 25%;
+}
+#article #subject dl dd.guest{
+    background: url(../../images/xly.gif) no-repeat 3px 25%;
+}
+#article #subject .content{
+    width: 720px;
+    float: right;
+    padding: 0 20px 0 0;
+}
+#article #subject .content .user{
+    border-bottom: 1px dashed #999;
+    background: url(../../images/member.gif)no-repeat left center;
+    padding: 0 0 0 20px;
+    color: #666;
+    height: 30px;
+    line-height: 30px;
+}
+#article #subject .content .user span{
+    float: right;
+    color: #06f;
+}
+#article .line{
+    margin: 10px auto;
+    width: 96%;
+    height: 10px;
+    clear: both;
+    border-bottom: 1px dashed #333;
+}
+#article #subject .content .read{
+    color: #666;
+    font-size: 14px;
+    float: right;
+    padding: 10px 10px 0 0;
+}
+#article legend{
+    padding-left: 12px;
+}
+#article dl dt{
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+#article dl dd{
+    padding-top: 10px;
+}
+#article #ubb{
+    width: 400px;
+    height: 26px;
+    background: #E3E1E1;
+    border: 1px solid #666;
+}
+#article #ubb img{
+    cursor: pointer;
+    display: block;
+    float: left;
+    padding: 5px 0 0 5px;
+}
+#article dl dd label{
+    cursor: pointer;
+    display: inline-block;
+    height: 20px;
+    padding: 0 8px 0 0;
+}
+#article dl dd .text{
+    width: 220px;
+    height: 19px;
+}
+#article #tt a{
+    text-decoration: none;
+    color: #333;
+}
+#article dl textarea{
+    font-size: 16px;
+    width: 400px;
+    height: 170px;
+    overflow-x:hidden;
+    overflow-y:auto;
+    resize: none;
+}
+#article .submit{
+    margin: 0 0 0 50px;
+    width: 120px;
+    height: 50px;
+    cursor: pointer;
+    font-weight: 600;
+}
+#article #code{
+    cursor: pointer;
+}
+#close{
+    width: 50px;
+    height: 25px;
+    line-height: 25px;
+    position: absolute;
+    text-align: center;
+    font-weight: 600;
+    background: #333;
+    color:red;
+    cursor: pointer;
+}
+#article form #toux{
+    border: 1px solid #000;
+    background-color:rgba(206,206,206,0.8);
+    display: none;
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    left: 400px;
+    overflow-x:hidden;
+    overflow-y:auto;
+    resize: none;
+}
+#article form #toux h5{
+    text-align: center;
+    padding:10px 0 10px 0;
+}
+#article form #toux dd{
+    float: left;
+    padding: 0 5px 0 0;
+}
+#article form #toux img{
+    cursor: pointer;
+}
+#article form #toux img:hover{
+    background : #666  right bottom
+}
+#article form{
+    height: 400px;
+}
+#article .re dl dt img{
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    display: block;
+}
+#article .re dl{
+    margin:5px 0 0 10px;
+    padding: 10px;
+    float: left;
+    width: 180px;
+}
+#article .re dl dd{
+    text-align:center;
+    height: 20px;
+    line-height: 20px;
+    float: left;
+    width: 75px;
+}
+#article .re dl dd a{
+    text-decoration: none;
+}
+#article .re dl dd a:hover{
+    text-decoration: underline;
+}
+#article .re dl dt{
+    width: 150px;
+    margin: 0 0 5px 0;
+}
+#article .re dl dd.user{
+    font-size: 18px;
+    height: 30px;
+    width: 150px;
+    color: #0921F7;
+    float: none;
+}
+#article .re dl dd.user img{
+    height: 18px;
+}
+#article .re dl dd.message{
+    background: url(../../images/ly.gif)no-repeat 3px 25%;
+}
+#article .re dl dd.friend{
+    background: url(../../images/jhy.gif)no-repeat 5px 25%;
+}
+#article .re dl dd.flower{
+    background: url(../../images/zan.png)no-repeat 5px 25%;
+}
+#article .re dl dd.guest{
+    background: url(../../images/xly.gif) no-repeat 3px 25%;
+}
+#article .re .content{
+    width: 720px;
+    float: right;
+    padding: 0 20px 0 0;
+}
+#article .re .content .user{
+    border-bottom: 1px dashed #999;
+    background: url(../../images/member.gif)no-repeat left center;
+    padding: 0 0 0 20px;
+    color: #666;
+    height: 30px;
+    line-height: 30px;
+}
+#article .re .content .user span{
+    float: right;
+    color: #06f;
+}
+#article .line{
+    margin: 10px auto;
+    width: 96%;
+    height: 10px;
+    clear: both;
+    border-bottom: 1px dashed #333;
+}
+#article .re .content .read{
+    color: #666;
+    font-size: 14px;
+    float: right;
+    padding: 10px 10px 0 0;
+}
+

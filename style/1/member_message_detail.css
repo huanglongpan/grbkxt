@@ -1,0 +1,40 @@
+/*
+* @Author: Marte
+* @Date:   2017-09-23 20:05:03
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-10-14 21:20:14
+*/
+#page1{
+    background:rgb(193,217,243);
+    height: 31px;
+    width: 100%;
+    padding: auto;
+}
+#page1 .input{
+    padding: 2px 4px;
+    margin: 4px 10px;
+    border-radius:5px;
+    cursor: pointer;
+    display: inline-block;
+    border: 1px solid #999;
+    background-color:rgb(249,249,249);
+}
+#page1 a{
+    cursor: pointer;
+    display: black;
+    width: 50px;
+    height: 30px;
+    border:1px solid #CCC;
+    border-radius:5px;
+    background:#FFF;
+    padding: 2px 4px;
+    color: #000;
+    text-decoration:none;
+}
+#page2{
+    background:RGB(239,245,251);
+    height: 50px;
+}
+#member_main dd{
+    padding: 2px 15px;
+}
