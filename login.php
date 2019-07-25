@@ -2,8 +2,8 @@
 /**
  * @Author: Marte
  * @Date:   2017-05-23 20:45:18
- * @Last Modified by:   Marte
- * @Last Modified time: 2017-09-08 21:38:15
+ * @Last Modified by:   Huang LongPan
+ * @Last Modified time: 2019-07-25 14:43:06
  */
 header('Cache-control: private, must-revalidate');
  session_cache_limiter('private, must-revalidate');
@@ -50,7 +50,7 @@ header('Cache-control: private, must-revalidate');
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>多用户留言系统--登录</title>
+    <title>多用户留言系统--登录111</title>
     <?php  require ROOT_PATH.'includes/title.inc.php'; ?>
     <link rel="stylesheet" type="text/css" href="style/1/login.css">
     <script type="text/javascript" src="js/login.js"></script>
