@@ -3,7 +3,7 @@
  * @Author: Marte
  * @Date:   2017-05-23 20:45:18
  * @Last Modified by:   Huang LongPan
- * @Last Modified time: 2019-07-26 09:56:15
+ * @Last Modified time: 2019-07-26 10:15:01
  */
 header('Cache-control: private, must-revalidate');
  session_cache_limiter('private, must-revalidate');
@@ -50,7 +50,7 @@ header('Cache-control: private, must-revalidate');
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>多用户留言系统-- sss登啊啊大asdadsad大录fhakhfasjfh12211</title>
+    <title>多用户留言系统-- dl</title>
     <?php  require ROOT_PATH.'includes/title.inc.php'; ?>
     <link rel="stylesheet" type="text/css" href="style/1/login.css">
     <script type="text/javascript" src="js/login.js"></script>
@@ -64,7 +64,7 @@ header('Cache-control: private, must-revalidate');
     <h2>登录</h2>
     <form action="login.php?action=login" method="post" name="login">
       <fieldset>
-          <legend>龙攀留言系统登录</legend>
+          
             <dl>
                 <dd>用户名：<input type="text" name="username" class="text"></dd>
                 <dd>密　码：<input type="password" name="password" class="text"></dd>
