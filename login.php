@@ -44,7 +44,8 @@ header('Cache-control: private, must-revalidate');
 
      }
 
-  }
+ }
+ echo "111";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -61,6 +62,7 @@ header('Cache-control: private, must-revalidate');
 ?>
 
 <div id="login">
+	<h2>登</h2>
     <h2>登录</h2>
     <form action="login.php?action=login" method="post" name="login">
       <fieldset>
