@@ -34,7 +34,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>多用户留言系统</title>
+	<title>多用户留言系统-index</title>
 	<link rel="shortcut icon" href="images/huaji.ico">
 	<link rel="stylesheet" type="text/css" href="style/1/basic.css">
 	<link rel="stylesheet" type="text/css" href="style/1/index.css">
