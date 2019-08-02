@@ -9,5 +9,9 @@
  define('IN_TG', true);
  require dirname(__FILE__).'/includes/common.inc.php';
  _unsetcookies('index.php');
+<<<<<<< HEAD
+ echo "logout.php";
+=======
  echo "logout";
+>>>>>>> 6d3f96c19a8e73366b25e3d308cc99eac8ac5597
 ?>
