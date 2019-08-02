@@ -32,7 +32,7 @@ define('GPC',get_magic_quotes_gpc());
  //数据库连接
  define('DB_HOST', 'localhost');
  define('DB_USER', 'root');
- define('DB_PWD', '123456');
+ define('DB_PWD', 'root');
  define('DB_NAME', 'textguest');
 
  _connect();
