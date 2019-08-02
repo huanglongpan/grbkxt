@@ -51,7 +51,11 @@ header('Cache-control: private, must-revalidate');
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+<<<<<<< HEAD
+    <title>多用户留言系统--登录loginaa</title>
+=======
     <title>多用户留言系统-- dl</title>
+>>>>>>> 33faca5d8764dc53896efc38dfb07c2ef302df69
     <?php  require ROOT_PATH.'includes/title.inc.php'; ?>
     <link rel="stylesheet" type="text/css" href="style/1/login.css">
     <script type="text/javascript" src="js/login.js"></script>
